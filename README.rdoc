@@ -10,7 +10,7 @@ Capistrano SSH recipe that starts a SSH connection to remote server.
 
 Add next line to config/deploy.rb:
   
-  require 'sushi'
+  require 'sushi/ssh'
   
 == Usage
 
