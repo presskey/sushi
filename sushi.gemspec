@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.author      = 'presskey'
   s.email       = 'hello.from.code@gmail.com'
   s.homepage    = 'http://github.com/presskey/sushi'
+  s.license 	= 'MIT'
   
   s.files       = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
