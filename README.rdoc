@@ -1,6 +1,6 @@
 = Sushi
 
-Capistrano SSH recipe that starts a SSH connection to remote server.
+Capistrano SSH recipe that starts SSH connection to a remote server.
 
 == Installation
 
@@ -8,7 +8,7 @@ Capistrano SSH recipe that starts a SSH connection to remote server.
   
 == Configuration
 
-Add next line to config/deploy.rb:
+Add the following line to config/deploy.rb:
   
   require 'sushi/ssh'
   
@@ -16,7 +16,7 @@ Add next line to config/deploy.rb:
 
   cap ssh
   
-  # or when multistage support used:
+  # or in case when multistage support used:
   cap staging ssh
   cap production ssh
   
